@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding: 50px;
+}
+
+.container {
+  position: relative;
+  width: 920px;
+  border: 2px solid #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.board {
+  width: 804px;
+  border: 2px solid #000;
+  margin: auto;
+}
+
+.a_row,
+.b_row {
+  line-height: 0px;
+  font-size: 0px;
+}
+
+.w_fild,
+.b_fild {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.w_fild {
+  background: #fff;
+}
+
+.b_fild {
+  background: #000;
+}
+
+.t_rulers {
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+
+.b_rulers {
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.ruler {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 36px;
+  margin-right: 40px;
+}
+
+.l_numbers {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  padding-top: 34px;
+}
+
+.r_numbers {
+  position: absolute;
+  display: inline-block;
+  right: 20px;
+  padding-top: 34px;
+}
+
+.num {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 66px;
+}
